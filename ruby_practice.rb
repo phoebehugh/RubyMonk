@@ -1,3 +1,35 @@
+if 0 
+  puts "0 is a wonderful number"
+end
+
+unless 0
+  puts "Hello mamma"
+end
+
+
+#The ternary operator (meaning composed of 3 items). The ? and : can be used to mean "then" and "else" respectively.
+def check_the_sign(number)
+  number > 0 ? "#{number} is positive" : "#{number} is negative"
+end
+
+
+def check_sign(number)
+  if number == 0
+    number
+  elsif number > 0
+    "#{number} is positive" # => 
+  else
+    "#{number} is negative" # => 
+  end
+end
+
+age = 5
+unless age >= 18
+  puts "Sorry, you're too young to drive. Grow up."
+end
+
+
+
 age = 5 # => 5
 age <= 30 # => true
 
