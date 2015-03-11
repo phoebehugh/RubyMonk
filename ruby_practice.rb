@@ -1,3 +1,9 @@
+def ring (bell, n)
+  n.times do bell.ring # => 
+  end 
+end
+
+
 if 0 
   puts "0 is a wonderful number"
 end
